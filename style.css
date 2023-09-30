@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: ubuntu,sans-serif;
+    color: white;
+}
+.navbar-brand img{
+   height: 50px;
+   width: 50px;
+}
+#middle{
+    height: 80vh;
+    background-color: rgb(39, 38, 38);
+}
+.navbar-nav{
+    color: white;
+}
+.bottom-controls{
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    width: 100vw;
+    height: 75px; 
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#progressbar{
+    background-color: white;
+    text-align: center;
+    width:70vw;
+    cursor: pointer;
+    
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    cursor: pointer;
+}
+.icons i{
+ padding: 2px 20px;
+}
+.cover{
+    width:60px;
+    height: 60px;
+    margin-right: 0px;
+}
+.song-des{
+    font-size: 1rem;
+    padding: 2px;
+    display: block;
+    margin:auto;
+    
+}
+.card i{
+    cursor:pointer;
+}
+.scroll-container {
+    overflow-y: scroll;
+    max-height: 75vh; /* Set the maximum height for scrolling */
+}
+.poster{
+    width: 207px;
+    height: 200px;
+    
+}
+.song-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left:10vw;
+    font-size: 0.8rem;
+}
+.song-info img{
+   opacity: 0;
+   transition: opacity 0.3s ease-in;
+}
+.grids{
+    flex-wrap: wrap;
+   
+}
